@@ -23,7 +23,7 @@ The documentation can be translated as well. To update the translation files
 before tagging a new release, the following commands can be used:
 
     make gettext
-    sphinx-intl update -p _build/gettext -l de -l fr
+    sphinx-intl update -p _build/gettext -l zh_CN
 
 Above only German and French are included because they are hosted, but other
 languages could be added in the future if there's enough interest in keeping
